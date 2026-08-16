@@ -379,7 +379,7 @@ You also need a valid Gemini API key for AI functionality.
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Archana35-stack/testsense-ai.git
 ```
 
 Navigate to the project directory:
@@ -464,7 +464,9 @@ After deployment, configure the required environment variable in Vercel:
 GEMINI_API_KEY
 ```
 
-The deployed application can then be accessed through the Vercel production URL.
+The deployed application is available here:
+
+**Live Demo:** https://testsense-ai-nine.vercel.app
 
 ---
 
@@ -490,13 +492,10 @@ The deployed application can then be accessed through the Vercel production URL.
 ![TestSense AI Excel Export](./Screenshots/excel/excel-export.png)
 
 
-> Screenshots will be added to the repository as part of the hackathon documentation.
-
 ---
 
 ## 📂 Project Structure
 
-```text
 testsense-ai/
 │
 ├── app/
@@ -505,21 +504,14 @@ testsense-ai/
 │   └── ...
 │
 ├── public/
-│
-├── screenshots/
-│
+├── Screenshots/
 ├── package.json
 ├── README.md
-├── .gitignore
-└── ...
-```
-
-> The exact folder structure may vary depending on the current implementation.
+└── .gitignore
 
 ---
 
 ## 🔒 Security
-
 API keys and other sensitive configuration values should be stored using environment variables.
 
 Never commit the following to GitHub:
@@ -579,11 +571,11 @@ Built as part of the **AI Tester 3X Hackathon**.
 
 ### GitHub Repository
 
-*Add your public GitHub repository link here.*
+[View Source Code](https://github.com/Archana35-stack/testsense-ai)
 
 ### Live Demo
 
-*Add your Vercel deployment link here.*
+[Open TestSense AI](https://testsense-ai-nine.vercel.app)
 
 ---
 
